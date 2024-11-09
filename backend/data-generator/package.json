@@ -1,0 +1,12 @@
+{
+  "name": "data-generator",
+  "version": "1.0.0",
+  "description": "Generic Data Generator with modular output",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "typescript": "^5.6.3"
+  }
+}
