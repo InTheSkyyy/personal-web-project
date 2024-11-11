@@ -1,11 +1,9 @@
-import { TimerInterface } from "./timerInterface";
+import { EmptyFunction, TimerInterface } from './timerInterface'
 
 export class InfiniteTimer implements TimerInterface {
+  constructor(public readonly interval: number) {}
 
-    constructor(public readonly interval: number) { }
-
-    start(callback: Function): void {
-        setInterval(callback, this.interval)
-    }
-
+  start(callback: EmptyFunction): void {
+    setInterval(callback, this.interval)
+  }
 }
