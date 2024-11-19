@@ -1,3 +1,3 @@
 export interface GeneratorInterface {
-  generate(): unknown | Promise<unknown>
+  generate(): unknown | Promise<unknown>;
 }

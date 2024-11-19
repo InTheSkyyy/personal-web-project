@@ -12,12 +12,15 @@
     "@typescript-eslint/eslint-plugin": "^8.14.0",
     "@typescript-eslint/parser": "^8.14.0",
     "eslint": "^9.14.0",
+    "eslint-config-prettier": "^9.1.0",
     "husky": "^9.1.7",
     "prettier": "^3.3.3",
     "typescript-eslint": "^8.15.0"
   },
   "scripts": {
     "postinstall": "husky",
-    "lint": "eslint"
+    "lint": "eslint",
+    "format": "prettier -c \"**/*.{ts,js,mjs,cjs}\"",
+    "format:fix": "prettier --write \"**/*.{ts,js,mjs,cjs}\""
   }
 }

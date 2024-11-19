@@ -1,5 +1,5 @@
-export type EmptyFunction = () => void
+export type EmptyFunction = () => void;
 
 export interface TimerInterface {
-  start(callback: EmptyFunction): void
+  start(callback: EmptyFunction): void;
 }
