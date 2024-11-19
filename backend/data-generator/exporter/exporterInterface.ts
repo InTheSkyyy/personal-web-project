@@ -1,3 +1,3 @@
 export interface ExporterInterface {
-  export(data: any): void
+  export(data: unknown): void
 }

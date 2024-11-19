@@ -1,7 +1,9 @@
 import { ExporterInterface } from './exporterInterface'
 
 export class ConsoleExporter implements ExporterInterface {
-  export(data: any): void {
+  export(data: unknown): void {
+
+
     console.log(data)
   }
 }

@@ -1,10 +1,23 @@
 {
-    "name": "personal-web-project",
-    "version": "1.0.0",
-    "private": true,
-    "workspaces": [
-        "frontend/*",
-        "backend/*",
-        "common/*"
-    ]
+  "name": "personal-web-project",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "frontend/*",
+    "backend/*",
+    "common/*"
+  ],
+  "devDependencies": {
+    "@eslint/js": "^9.15.0",
+    "@typescript-eslint/eslint-plugin": "^8.14.0",
+    "@typescript-eslint/parser": "^8.14.0",
+    "eslint": "^9.14.0",
+    "husky": "^9.1.7",
+    "prettier": "^3.3.3",
+    "typescript-eslint": "^8.15.0"
+  },
+  "scripts": {
+    "postinstall": "husky",
+    "lint": "eslint"
+  }
 }
