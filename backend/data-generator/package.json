@@ -1,5 +1,5 @@
 {
-  "name": "data-generator",
+  "name": "@personal-web-project/data-generator",
   "version": "1.0.0",
   "description": "Generic Data Generator with modular output",
   "main": "index.js",
